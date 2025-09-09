@@ -1,0 +1,51 @@
+ nav a{
+  text-decoration:none;
+  color:black;
+}
+nav a:visited{
+  color:gray;
+}
+nav a:hover{
+  color:blue;
+}
+nav a:active{
+  color:pink;
+}
+body{
+  font-family:Arial,sans-serif;
+  padding:10px;
+  background-color:#fdf6e3;
+  border: 8px solid #999;
+  border-radius:34px;
+  line-height:2;
+}
+h1{
+  text-align: center;
+}
+form{
+  text-align:center;
+}
+footer{
+  text-align:center;
+}
+.contact{
+  line-height:2.5;
+}
+input{
+  border:2px solid #555;
+  transition:border-color 0.3s,box-shadow 0.3s;
+}
+input:focus{
+  border-color:#4caf50;
+  box-shadow:0 0 8px #2196f3;
+}
+textarea{
+ line-height:4;
+ border:2px solid #555;
+  transition:border-color 0.3s,box-shadow 0.3s;
+}
+textarea:focus{
+  border-color:#4caf50;
+  box-shadow:0 0 8px #2196f3;
+}
+  
